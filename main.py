@@ -18,16 +18,23 @@ def user_instructions():
 | $$      | $$| $$|  $$$$$$$      | $$/   \  $$|  $$$$$$$  |  $$$$/|  $$$$$$$| $$  | $$|  $$$$$$$| $$
 |__/      |__/|__/ \_______/      |__/     \__/ \_______/   \___/   \_______/|__/  |__/ \_______/|__/
 
+File Watcher allows you to monitor changes made to files of your choice in real time. Follow the instructions below
+to begin.
+
 Instructions:
 1. Create a plain text file with a list of filepaths that you would like to monitor. Make sure the path is exact.
-
 EXAMPLE:
 C:/Documents/Newsletters/Summer2018.pdf
 C:/Documents/Newsletters/Summer2019.pdf
 C:/Documents/Newsletters/Summer2020.pdf
 C:/Documents/Newsletters/Summer2021.pdf
 
-2. As changes are made you will see updates to these files in realtime
+2. Next you will be prompted to select the txt file that contains the list of files you will be monitoring. Select the
+file and as changes are made you will start receiving messages.
+EXAMPLE:
+2022-09-06 22:13:57 - Modified file: C:/Documents/Newsletters/Summer2018.pdf
+
+
 
     """
 
